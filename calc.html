@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="display">0</div>
+      <div class="keys">
+        <div onclick="press(7)">7</div>
+        <div onclick="press(8)">8</div>
+        <div onclick="press(9)">9</div>
+        <div onclick="clr()">C</div>
+        <div onclick="press(4)">4</div>
+        <div onclick="press(5)">5</div>
+        <div onclick="press(6)">6</div>
+        <div>*</div>
+        <div onclick="press(1)">1</div>
+        <div onclick="press(2)">2</div>
+        <div onclick="press(3)">3</div>
+        <div onclick="eval()">-</div>
+        <div onclick="press(0)">0</div>
+        <div onclick="eval()">.</div>
+        <div onclick="eval()">=</div>
+        <div onclick="eval()">+</div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
